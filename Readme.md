@@ -45,12 +45,12 @@ A tag form no HTML é a maneira mais tradicional de interagir com o usuário da 
 
 #### 🚀 Requisitos para o desafio 
 
-**Requisitos para o desafio:**
+**Requisitos para o desafio**
 
 - [ ] Criar uma página que contenha um formulário para que o usuário possa inserir o e-mail.
 - [ ] Ter um botão para o usuário clicar após inserir o e-mail.
 
-**Se desafie também:**
+**Se desafie também**
 
 - [ ] Criando uma função para o botão (ex. Exibir um alerta)
 - [ ] Salvar os e-mails digitados em algum banco de dados
@@ -62,7 +62,7 @@ A tag form no HTML é a maneira mais tradicional de interagir com o usuário da 
 - Templates de referências para ser feito
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#SocialTree" src="./.github/template-1.png" width="400px">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/template-1.png" width="400px">
 </p>  
 
 ````css
@@ -98,13 +98,13 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-1.jpg" width="400px">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/template-1.jpg" width="400px">
 </p>  
 
 - Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-1.jpg" height="400px">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/template-1.jpg" height="400px">
 </p>  
 
 Feito com ❤️ por Douglas A B Novato. 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
