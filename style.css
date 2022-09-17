@@ -15,4 +15,32 @@
 body {
     font-family: Spartan, Work Sans, sans-serif;
     background-color: var(--bg-button-color);
+    font-weight: 400;
+}
+
+.container {
+    width: 640px;
+    margin: 2% auto 0;
+    border: 2px solid red;
+}
+
+.left {
+    width: 50%;
+    border: 2px solid red;
+}
+
+.logo-rocket img {
+    width: 389px;
+    height: 94px;
+    border: 2px solid red;
+}
+
+.right {
+    width: 50%;
+    border: 2px solid red;
+}
+
+.read-news img {
+    width: 200px;
+    border: 2px solid red;
 }
