@@ -22,7 +22,6 @@ body {
     max-width: 840px;
     width: 100%;
     margin: 2% auto 0;
-    border: 2px solid blue;
 }
 
 .cards {
@@ -37,7 +36,6 @@ body {
 
 .left {
     background-color: var(--body-bg-color);
-    border: 2px solid yellow;
 }
 
 .apresentation h2 {
@@ -55,14 +53,12 @@ body {
 
 .logo-rocket img {
     width: 100%;
-    border: 2px solid red;
 }
 
 .right {
-    border: 2px solid yellow;
+    background-color: var(--body-bg-color);
 }
 
 .read-news img {
     width: 100%;
-    border: 2px solid red;
 }
