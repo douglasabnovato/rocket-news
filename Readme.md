@@ -62,7 +62,7 @@ A tag form no HTML é a maneira mais tradicional de interagir com o usuário da 
 - Templates de referências para ser feito
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#SocialTree" src="./.github/template-1.jpg" width="400px">
+  <img alt="versão 1 do projeto" title="#SocialTree" src="./.github/template-1.png" width="400px">
 </p>  
 
 ````css
