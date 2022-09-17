@@ -45,12 +45,10 @@ A tag form no HTML é a maneira mais tradicional de interagir com o usuário da 
 
 #### 🚀 Requisitos para o desafio 
 
-**Requisitos para o desafio:**
-
 - [ ] Criar uma página que contenha um formulário para que o usuário possa inserir o e-mail.
 - [ ] Ter um botão para o usuário clicar após inserir o e-mail.
 
-**Se desafie também:**
+#### 🚀 Requisitos bônus 
 
 - [ ] Criando uma função para o botão (ex. Exibir um alerta)
 - [ ] Salvar os e-mails digitados em algum banco de dados
@@ -62,7 +60,7 @@ A tag form no HTML é a maneira mais tradicional de interagir com o usuário da 
 - Templates de referências para ser feito
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#SocialTree" src="./.github/template-1.png" width="400px">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/template-1.png" width="400px">
 </p>  
 
 ````css
@@ -77,9 +75,9 @@ A tag form no HTML é a maneira mais tradicional de interagir com o usuário da 
 
 #### 🎨 Fontes
 
-- [ ] font-family: Spartan, Work Sans  
-- [ ] font-weight: 400, 500, 700
-- [ ] Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
+- [x] font-family: Spartan, Work Sans  
+- [x] font-weight: 400, 500, 700
+- [x] Você pode encontrar a fonte no [Google Fonts](https://fonts.google.com/)
 
 ### 📅 Entrega
 
@@ -87,9 +85,9 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 
 #### 📅 Tarefas
 
-- [ ] Organizando os detalhes do projeto no readme.md
-- [ ] Uma branch main e uma developer
-- [ ] Favicon
+- [x] Organizando os detalhes do projeto no readme.md
+- [x] Uma branch main e uma developer
+- [x] Favicon
 - [ ] [Learn Responsive Design](https://web.dev/learn/design/)
 - [ ] [Learn CSS](https://web.dev/learn/css/)
 
@@ -98,13 +96,13 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-1.jpg" width="400px">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/template-1.png" width="400px">
 </p>  
 
 - Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/template-1.jpg" height="400px">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/template-1.png" height="400px">
 </p>  
 
 Feito com ❤️ por Douglas A B Novato. 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
