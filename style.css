@@ -17,21 +17,23 @@ body {
     background: #E5E5E5;
 }
 
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.cards .card {
+    flex-basis: 15em;
+    flex-grow: 1;
+}
+
 .container {
     position: relative;
-    width: 72%;
-    height: 48%;
-    margin: 1% auto 0;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(2, 1fr));
-}
-
-.card {
-    flex-basis: 2em;
-    flex-grow: 1;
+    width: 90vw;
+    height: 48vh;
+    margin: .5% auto 0;
 }
 
 .left {
@@ -106,6 +108,7 @@ body {
     left: 36px;
     top: 424px;
     background: #04D361;
+    z-index: 11;
 }
 
 .newsletter input {
@@ -115,6 +118,7 @@ body {
     left: 36px;
     top: 424px;
     filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+    padding: 15px;
 }
 
 .newsletter button {
@@ -139,8 +143,9 @@ body {
 }
 
 .to-read .icon-send {
-    background: url(./assets/arrow-right.svg);
-    color: #8257e5;
+    content: url(./assets/arrow-right.svg);
+    width: 18px;
+    height: 18px;    
 }
 
 .logo-rocket img {
@@ -152,12 +157,13 @@ body {
 }
 
 .right {
-    width: 1175px;
+    width: 1275px;
+    margin-left: 250px;
 }
 
-.right img {
+.right .banner img {
     width: 1175px;
     height: 780px;
     top: 0px;
-    left: 40px;
+    left: 10px;
 }
