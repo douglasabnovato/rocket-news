@@ -88,8 +88,8 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [x] Organizando os detalhes do projeto no readme.md
 - [x] Uma branch main e uma developer
 - [x] Favicon
-- [ ] [Learn Responsive Design](https://web.dev/learn/design/)
-- [ ] [Learn CSS](https://web.dev/learn/css/)
+- [x] [Learn Responsive Design](https://web.dev/learn/design/)
+- [x] [Learn CSS](https://web.dev/learn/css/)
 
 #### 📅 Telas
 
