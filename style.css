@@ -128,7 +128,8 @@ body {
     height: 48px;
     left: 786px;
     top: 424px;
-    cursor: pointer; 
+    cursor: pointer;
+    border: 1px solid #8257e5;
 }
 
 .newsletter .icon-send {
@@ -148,7 +149,7 @@ body {
 .to-read .icon-arrow-right {
     content: url(./assets/arrow-right.svg);
     width: 18px;
-    height: 18px;    
+    height: 18px;
 }
 
 .logo-rocket img {
