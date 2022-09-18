@@ -90,6 +90,8 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [x] Favicon
 - [x] [Learn Responsive Design](https://web.dev/learn/design/)
 - [x] [Learn CSS](https://web.dev/learn/css/)
+- [ ] Dimensões dos elementos em Telas
+- [ ] Responsividade
 
 #### 📅 Telas
 
