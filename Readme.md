@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/template-1.png">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/tela-1.jpg">
 </p>  
 
 ### 💻 Sobre o desafio
@@ -98,13 +98,13 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/template-1.png" width="400px">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/tela-1.jpg" width="400px">
 </p>  
 
 - Mobile
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/template-1.png" height="400px">
+  <img alt="versão 1 do projeto" title="#rocketnews" src="./.github/tela-1.jpg" height="400px">
 </p>  
 
 Feito com ❤️ por Douglas A B Novato. 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
