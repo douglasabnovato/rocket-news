@@ -18,45 +18,31 @@ body {
 }
 
 .container {
-    /* RocketNews */
-
-
     position: relative;
-    width: 1440px;
-    height: 780px;
-
-    background: #FFFFFF;
+    width: 72%;
+    height: 48%;
+    margin: 1% auto 0;
 }
 
-/*.cards {
+.cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(28em, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(2, 1fr));
 }
 
 .card {
-    flex-basis: 28em;
+    flex-basis: 2em;
     flex-grow: 1;
-}*/
+}
 
 .left {
-    /* background */
-
-
     position: absolute;
-    width: 720px;
+    width: 100%;
+    max-width: 720px;
     height: 780px;
-    left: 0px;
-    top: 0px;
-
-    /* Black */
-
     background: #121214;
 }
 
 .logo-rocket {
-    /* logo */
-
-
     position: absolute;
     width: 389px;
     height: 94px;
@@ -94,33 +80,26 @@ body {
     position: absolute;
     width: 798px;
     height: 84px;
-    left: 36px;
-    top: 388px;
+    left: 2px;
+    top: 32px;
+    z-index: 10;
 }
 
 .newsletter h2 {
-    /* Insira seu e-mail: */
-
-
     position: absolute;
     width: 133px;
     height: 19px;
     left: 36px;
     top: 388px;
-
     font-family: 'Spartan';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 138.73%;
-    /* or 19px */
-
-
     color: #A8A8A8;
 }
 
 .newsletter .retangular {
-    /* Rectangle 4 */
     position: absolute;
     width: 5px;
     height: 48px;
@@ -130,7 +109,6 @@ body {
 }
 
 .newsletter input {
-    /* input */
     position: absolute;
     width: 798px;
     height: 48px;
@@ -140,22 +118,29 @@ body {
 }
 
 .newsletter button {
-    /* button */
-
-
     position: absolute;
     width: 48px;
     height: 48px;
     left: 786px;
     top: 424px;
+    background: url(./assets/send.svg);
+    background-color: #8257e5;
+    cursor: pointer;
 }
 
 .to-read {
     position: absolute;
     width: 196px;
     height: 24px;
-    left: 36px;
-    top: 522px;
+    left: 40px;
+    top: 532px;
+    color: #8257e5;
+    cursor: pointer;
+}
+
+.to-read .icon-send {
+    background: url(./assets/arrow-right.svg);
+    color: #8257e5;
 }
 
 .logo-rocket img {
@@ -167,30 +152,12 @@ body {
 }
 
 .right {
-    /* image */
-    position: absolute;
     width: 1175px;
-    height: 900px;
-    left: 376px;
-    top: 0px;
 }
 
-.right .read-news {
-    /* Rectangle 1 */
-    position: absolute;
-    width: 720px;
-    height: 900px;
-    left: 720px;
-    top: 0px;
-    background: #C4C4C4;
-}
-
-.right .read-news img {
-    /* read_news 1 */
-    position: absolute;
+.right img {
     width: 1175px;
-    height: 784px;
-    left: 376px;
+    height: 780px;
     top: 0px;
-    background: url(read_news.jpg);
+    left: 40px;
 }
