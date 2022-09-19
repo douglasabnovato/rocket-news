@@ -136,6 +136,14 @@ body {
     content: url(./assets/send.svg);
 }
 
+.newsletter #responsesend {
+    position: absolute;
+    left: 46px;
+    top: 480px;
+    font-size: 8px;
+    color: #04D361;
+}
+
 .to-read {
     position: absolute;
     width: 196px;

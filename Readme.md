@@ -93,8 +93,8 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [x] Dimensões dos elementos em Telas
 - [ ] Responsividade
 - [x] Limpar input após executar tarefa da função do botão
-- [ ] Apresentar mensagem abaixo do input como resposta a ação do botão
-- [ ] Salvar emails no localstorage
+- [x] Apresentar mensagem abaixo do input como resposta a ação do botão
+- [x] Salvar emails no localstorage
 - [ ] Salvar emails no cookies
 - [ ] Validar se é um email
 
