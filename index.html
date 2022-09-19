@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>Rocket News</title>
+    <title>Rocket News.</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -33,11 +33,16 @@
         <form class="newsletter">
           <h2>Insira seu e-mail:</h2>
           <span class="retangular"></span>
-          <input type="e-mail" placeholder="google@google.com" /><button
-            class="icon-send"
-          >
+          <input 
+            id="e-mail" 
+            type="e-mail" 
+            placeholder="google@google.com" 
+            autocomplete=""
+          />
+          <button id="icon-send">
             <span class="icon-send"></span>
           </button>
+          <p id="responsesend"></p>
         </form>
         <a class="to-read">
           <span class="message">deixe-me ler primeiro</span>
