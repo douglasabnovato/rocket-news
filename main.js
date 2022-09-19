@@ -6,6 +6,11 @@ if (!listEmails && !currentEmail) {
   currentEmail = "";
 }
 
+function validateEmail(email) {
+  var re = /\S+@\S+\.\S+/;
+  return re.test(email);
+}
+
 let emailInput = document.getElementById("e-mail");
 
 document
@@ -15,19 +20,27 @@ document
 
     if (!emailInput.value) {
       console.log("Insira o seu melhor e-mail.");
-      document.getElementById("responsesend").innerHTML = "Insira o seu melhor e-mail.";
+      document.getElementById("responsesend").innerHTML =
+        "Insira o seu melhor e-mail.";
     } else {
       console.log(
         "Obrigado " + emailInput.value + " por assinar nossa newsletter!!"
       );
-      document.getElementById("responsesend").innerHTML = "Obrigado " + emailInput.value + " por assinar nossa newsletter!!";
 
-      currentEmail = emailInput.value;
-      listEmails.push(currentEmail);
-      
-      localStorage.setItem("currentEmail", JSON.stringify(currentEmail));
-      localStorage.setItem("listEmails", JSON.stringify(listEmails));
+      if (!validateEmail(emailInput.value)) {
+        document.getElementById("responsesend").innerHTML = 
+          emailInput.value +
+          ": Não é um e-mail válido. Insira o seu melhor e-mail.";
+      } else {
+        document.getElementById("responsesend").innerHTML =
+          "Obrigado " + emailInput.value + " por assinar nossa newsletter!!";
 
-      emailInput.value = "";
+        currentEmail = emailInput.value;
+        listEmails.push(currentEmail);
+
+        localStorage.setItem("currentEmail", JSON.stringify(currentEmail));
+        localStorage.setItem("listEmails", JSON.stringify(listEmails));
+      }
     }
+    emailInput.value = "";
   });
