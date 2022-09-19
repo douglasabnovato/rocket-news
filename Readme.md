@@ -52,12 +52,7 @@ A tag form no HTML é a maneira mais tradicional de interagir com o usuário da 
 
 - [x] Criar uma função para o botão (ex. Exibir um alerta)
 - [ ] Salvar os e-mails digitados em algum banco de dados
-
-#### 🚀 Requisitos Personalizados 
-
-- [ ] Salvar emails no localstorage
-- [ ] Salvar emails no cookies
-
+ 
 ### 🎨 Style Guide
 
 #### 🎨 Cores
@@ -95,8 +90,12 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [x] Favicon
 - [x] [Learn Responsive Design](https://web.dev/learn/design/)
 - [x] [Learn CSS](https://web.dev/learn/css/)
-- [ ] Dimensões dos elementos em Telas
+- [x] Dimensões dos elementos em Telas
 - [ ] Responsividade
+- [x] Limpar input após executar tarefa da função do botão
+- [ ] Apresentar mensagem abaixo do input como resposta a ação do botão
+- [ ] Salvar emails no localstorage
+- [ ] Salvar emails no cookies
 
 #### 📅 Telas
 

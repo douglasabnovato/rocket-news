@@ -6,5 +6,6 @@ document.getElementById("icon-send").addEventListener("click", function (event) 
     console.log("Insira o seu melhor e-mail.");
   } else {
     console.log("Obrigado " + emailInput.value + " por assinar nossa newsletter!!");
+    emailInput.value = "";
   }
 });
