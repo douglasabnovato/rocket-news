@@ -96,6 +96,7 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [ ] Apresentar mensagem abaixo do input como resposta a ação do botão
 - [ ] Salvar emails no localstorage
 - [ ] Salvar emails no cookies
+- [ ] Validar se é um email
 
 #### 📅 Telas
 
