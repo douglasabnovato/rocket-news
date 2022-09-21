@@ -88,16 +88,14 @@ Após concluí-los, adicionar esses códigos ao seu Github é uma boa forma de d
 - [x] Organizando os detalhes do projeto no readme.md
 - [x] Uma branch main e uma developer
 - [x] Favicon
-- [x] [Learn Responsive Design](https://web.dev/learn/design/)
-- [x] [Learn CSS](https://web.dev/learn/css/)
+- [ ] [Learn Responsive Design](https://web.dev/learn/design/)
+- [ ] [Learn CSS](https://web.dev/learn/css/)
 - [x] Dimensões dos elementos em Telas
 - [x] Limpar input após executar tarefa da função do botão
 - [x] Apresentar mensagem abaixo do input como resposta a ação do botão
 - [x] Salvar emails no [localstorage](https://www.horadecodar.com.br/2020/07/21/como-salvar-um-objeto-na-localstorage/)
 - [x] [Validar com regex](https://www.horadecodar.com.br/2020/09/13/como-validar-email-com-javascript/) se é um email: Qualquer tipo de string; Seguida por um caractere @; Seguido por algum outro texto, o domínio/provedor; E então temos a presença de um ponto; E por fim mais um texto, validando tanto emails .com quanto .com.br, e outros que tenham terminologias diferentes.
 - [x] Botão deixe-me ler primeiro: Redirecionar para meu blog
-- [ ] Refatorar código
-- [ ] Responsividade
 
 #### 📅 Telas
 
